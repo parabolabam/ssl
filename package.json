@@ -8,10 +8,15 @@
     "build": "npx @11ty/eleventy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["SSL", "Podcast", "Blog"],
+  "keywords": [
+    "SSL",
+    "Podcast",
+    "Blog"
+  ],
   "author": "Vladislav Sorokin",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1"
+    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-plugin-rss": "^1.2.0"
   }
 }
